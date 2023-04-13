@@ -1,4 +1,4 @@
-# Title: Design and Verification of a 5-Stage Pipelined Processor with R-Format Instruction using Synopsys HAPS-100 Protocompiler
+# Design and Verification of a 5-Stage Pipelined Processor with R-Format Instruction using Synopsys HAPS-100 Protocompiler
 
 ## Introduction:
 In this project, we aim to design and verify a 5-stage pipelined processor with R-format instruction using the Synopsys HAPS-100 protocompiler. The pipeline processor is a fundamental building block of many modern microprocessors, and the R-format instruction is a type of instruction commonly used in MIPS (Microprocessor without Interlocked Pipeline Stage) architectures.
