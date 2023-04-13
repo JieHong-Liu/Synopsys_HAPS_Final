@@ -1,9 +1,0 @@
-%%% protect protected_file
-# Area estimation data
-# This file is intended for tool use only and should not be edited
-n work Adder verilog;
-av .estarea 30;
-av .estdetail "Luts=30, Regs=0, MaxChainLength=0, BlockRams=0, UltraRams=0, Dsps=0, Plls=0, Transceivers=0, GlobalClockBufs=0, ZDPIMod=0";
-n work top verilog;
-av .estarea 30;
-av .estdetail "Luts=30, Regs=0, MaxChainLength=0, BlockRams=0, UltraRams=0, Dsps=0, Plls=0, Transceivers=0, GlobalClockBufs=0, ZDPIMod=0";

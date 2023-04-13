@@ -1,7 +1,0 @@
-./src/Adder.v
-./src/ALU.v
-./src/ALU_Control.v
-./src/Control.v
-./src/IM.v
-./src/R_FormatCPU.v
-./src/RF.v
