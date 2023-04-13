@@ -1,0 +1,42 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -l vlogan.log -full64 -sverilog +define+XTOR_SVS_PROTOCOMPILER_FLOW -work work -full64
+
+all :		_VCSgd_61AiSb_1.db \
+	_VCSgd_wvM5Uc_1.db \
+	_VCSgd_m2MFge_1.db \
+	_VCSgd_eH4H8_1.db \
+	_VCSgd_6QymG_1.db \
+	_VCSgd_nGFE7b_1.db \
+	_VCSgd_l1pnge_1.db \
+
+
+
+_VCSgd_61AiSb_1.db :	./src/Adder.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/Adder.v
+
+
+_VCSgd_wvM5Uc_1.db :	./src/ALU.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/ALU.v
+
+
+_VCSgd_m2MFge_1.db :	./src/ALU_Control.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/ALU_Control.v
+
+
+_VCSgd_eH4H8_1.db :	./src/Control.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/Control.v
+
+
+_VCSgd_6QymG_1.db :	./src/IM.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/IM.v
+
+
+_VCSgd_nGFE7b_1.db :	./src/R_FormatCPU.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/R_FormatCPU.v
+
+
+_VCSgd_l1pnge_1.db :	./src/RF.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/RF.v
+
+
