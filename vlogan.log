@@ -1,0 +1,18 @@
+Command: vlogan -full64 -work work -sverilog -f vlog_inputs.txt -l vlogan.log
+                         Chronologic VCS (TM)
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Thu Apr 13 12:02:22 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file './src/Adder.v'
+Parsing design file './src/ALU.v'
+Parsing design file './src/ALU_Control.v'
+Parsing design file './src/Control.v'
+Parsing design file './src/IM.v'
+Parsing design file './src/R_FormatCPU.v'
+Parsing design file './src/RF.v'
+CPU time: .183 seconds to compile
